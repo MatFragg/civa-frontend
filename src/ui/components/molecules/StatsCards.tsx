@@ -13,19 +13,19 @@ export const StatsCards = ({ total, active, inactive, currentPage, totalPages }:
   <div className="px-6 py-4">
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
       <StatCard
-        label="Active Buses"
+        label="Buses Activos"
         value={active}
         gradient="from-[#F43F8C] to-[#E8367F]"
         icon={<CheckCircleIcon className="h-6 w-6" />}
       />
       <StatCard
-        label="Inactive Buses"
+        label="Buses Inactivos"
         value={inactive}
         gradient="from-[#9CA3AF] to-[#7C7C8C]"
         icon={<ExclamationCircleIcon className="h-6 w-6" />}
       />
       <StatCard
-        label="Total Fleet"
+        label="Flota Total"
         value={total}
         gradient="from-[#6B46C1] to-[#5A3AA8]"
         icon={<TruckIcon className="h-6 w-6" />}
