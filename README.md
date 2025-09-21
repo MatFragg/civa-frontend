@@ -38,7 +38,7 @@ src/
 │   └── service/     # Servicios de negocio
 ├── infrastructure/ # Adaptadores y acceso a datos externos
 │   └── api/        # Clientes HTTP y transformadores de datos
-├── interfaces/     # Capa de presentación (componentes UI)
+├── ui/             # Capa de presentación (componentes UI)
 │   ├── components/ # Componentes React reutilizables
 │   └── pages/      # Páginas principales de la aplicación
 ├── public/         # Componentes públicos y layout general
