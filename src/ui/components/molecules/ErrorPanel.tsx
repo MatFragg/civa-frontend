@@ -1,7 +1,7 @@
 import { ExclamationCircleIcon } from '../atoms/Icons';
 
 /**
- * Properties for the ErrorPanel component.
+ * Properties for the ErrorPanel atomic component.
  */
 type Props = { 
   /** Error message to display to the user */
@@ -30,7 +30,7 @@ export const ErrorPanel = ({ message, onRetry }: Props) => (
         onClick={onRetry}
         className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition"
       >
-        Try Again
+        Intenta de nuevo
       </button>
     </div>
   </div>
